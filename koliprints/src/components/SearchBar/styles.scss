@@ -1,0 +1,17 @@
+.searchBar {
+  width: 30%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  .searchBarInput {
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    align-self: center;
+    padding: 0px 10px;
+  }
+}

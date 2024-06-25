@@ -1,0 +1,21 @@
+.navBar {
+  padding: 10px;
+  display: flex;
+  height: 30px;
+  background-color: transparent;
+  font-family: sans-serif;
+  align-self: center;
+
+  .button {
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    display: flex;
+    padding-right: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border-right: 2px #5d0179 solid;
+  }
+}

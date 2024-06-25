@@ -1,0 +1,21 @@
+$sideBar-primary-color: #2b83c2;
+$sideBar-secondary-color: rgba(11, 176, 202, 0.4);
+
+.sidebar {
+  font-family: sans-serif;
+  color: white;
+  padding: 30px;
+  margin: 0px;
+  background: linear-gradient($sideBar-primary-color, $sideBar-secondary-color);
+  border-radius: 0px 30px 0px 0px;
+
+  .title {
+    letter-spacing: 2px;
+    width: 80%;
+  }
+}
+@media (max-width: 900px) {
+  .sidebar {
+    display: none;
+  }
+}
